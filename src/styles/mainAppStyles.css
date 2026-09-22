@@ -1,0 +1,12 @@
+.backgroundStyleMainApp {
+  background-image: linear-gradient(
+      to right,
+      var(--linearGradientColor),
+      var(--linearGradientColor)
+    ),
+    url("../data/images/develpment.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

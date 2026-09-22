@@ -1,0 +1,20 @@
+.backgroundStyle {
+  background-image: linear-gradient(
+      to right,
+      var(--linearGradientColor),
+      var(--linearGradientColor)
+    ),
+    url("../data/images/develpment.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid #f8fafc;
+}
